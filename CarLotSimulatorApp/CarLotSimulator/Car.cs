@@ -24,6 +24,7 @@ namespace CarLotSimulator
 
         public Car()
         {
+            CarLot.NumberOfCars++;
         }
 
         public int Year { get; set; }
